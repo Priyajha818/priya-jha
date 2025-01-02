@@ -1,0 +1,172 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://news.utexas.edu/wp-content/uploads/2022/07/Hero-600x400-c-default.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    padding: 12px 30px;
+    background-color: #5b53d1;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #4e44c0;
+}
+
+/* Section Titles */
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+/* Features Section */
+.features {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.feature-card {
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.feature-icon {
+    font-size: 40px;
+    color: #5b53d1;
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    max-width: 500px;
+}
+
+.testimonial-card p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* Pricing Section */
+.pricing {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pricing-card {
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.pricing-card h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.pricing-card p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact
